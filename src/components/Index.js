@@ -222,7 +222,7 @@ function Index() {
               <div className="restaurant-list">
                 {filteredRestaurants.map((restaurant, index) => (
                   <div className="place" key={index}>
-                    <a href={restaurant.image} className="place-link">
+                   
                       <div className="list-item">
                         <div className="item-content">
                           <div className="top-img">
@@ -270,7 +270,7 @@ function Index() {
                           </span>
                         </div>
                       </div>
-                    </a>
+                    
                   </div>
                 ))}
               </div>
